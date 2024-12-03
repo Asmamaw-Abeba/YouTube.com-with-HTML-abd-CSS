@@ -9,6 +9,11 @@
   margin-top: -5px;
 }
 
+@media (max-width: 575px){
+  .side-bar {
+    display: none;
+  }
+}
 
 .side-bar-link {
   background-color: #ffffff;
