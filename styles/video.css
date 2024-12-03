@@ -60,6 +60,7 @@ margin-bottom: 4px;
   .video-preview-grid {
     grid-template-columns: 1fr;
     display: block;
+    width: 100%;
     row-gap: 50px;
   }
 }
