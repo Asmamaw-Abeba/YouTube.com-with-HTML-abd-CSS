@@ -9,11 +9,6 @@
   margin-top: -5px;
 }
 
-@media (max-width: 450px){
-  .Side-bar {
-    display: none;
-  }
-}
 
 .side-bar-link {
   background-color: #ffffff;
@@ -24,6 +19,13 @@
   align-items: center;  /*// to center horizontally */
   flex-direction: column; /* ^ because of column cvalue */
 }
+
+@media (max-width: 575px){
+  .side-bar-link {
+    display: none;
+  }
+}
+
 .side-bar-link:hover {
   background-color: rgb(235, 235, 235);
   cursor: pointer;
