@@ -9,12 +9,18 @@
   margin-top: -5px;
 }
 
+@media (max-width: 575px){
+  .Side-bar {
+    display: none;
+  }
+}
+
 .side-bar-link {
   background-color: #ffffff;
   height: 74px;
   margin-bottom: px;
   display: flex;
-  justify-content: center;   /* // to center verticallty */
+  justify-content: center;   /*  to center verticallty */
   align-items: center;  /*// to center horizontally */
   flex-direction: column; /* ^ because of column cvalue */
 }
